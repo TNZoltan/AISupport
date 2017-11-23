@@ -1,0 +1,11 @@
+{
+  "name": "ai-support",
+  "version": "1.0.0",
+  "description": "2018 Final project of DMOe15C",
+  "main": "-",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
