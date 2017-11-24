@@ -1,6 +1,6 @@
 <template>
     <div>
-        {{ test }}
+    {{ test }}
     </div>
 </template>
 
@@ -9,8 +9,17 @@
     export default {
         data () {
             return {
-                test: 'Hello World!'
+                test: 'Start. Fetch message in 2 seconds'
             }
+        },
+        created () {
+            setTimeout(() => {
+                console.log('GO')
+                this.$http.get('http://127.0.0.1:5000/test').then( (response) => {
+                    console.log(response)
+                    this.test = response.body.tasks[0].msg
+                });
+            }, 2000)
         }
     }
 </script>
