@@ -1,0 +1,41 @@
+{
+  "Intents": [
+    {
+      "Question": [
+        "How do I buy online?",
+        "How to shop online"
+      ],
+      "Answer": [
+        "To find out how you can shop online please [click here.](http://www.ikea.com/gb/en/customer-service/how-to-shop-at-ikea/)"
+      ]
+    },
+    {
+      "Question": ["Why are there products on the website that I cannot buy online?"],
+      "Answer": ["The majority of the IKEA furniture range is available at Shop Online along with an increasing selection of our home accessories range. We are planning to increase the ranges available in future. We show as many items as possible online as you may wish to visit one of our stores for the item, and it will enable you to have the product details to hand before you visit. Items available to purchase online display the \"available to buy online\" option."]
+    },
+    {
+      "Question": ["Are your prices online the same as in store?"],
+      "Answer": ["Shop Online product prices will normally be the same as in store prices. However, occasionally promotions will mean some prices can differ."]
+    },
+    {
+      "Question": ["What if I change my mind after ordering online?"],
+      "Answer": ["\\n\\n It's fine to change your mind. You are able to cancel or amend an order by [contacting us](http://www.ikea.com/gb/en/customer-service/contact-us/). If you've already had delivery and you've changed your mind, simply take to a store, or if this is not possible, speak to a co-worker about arranging a collection*. Full details can be found in the Shop Online [Returns Policy](http://www.ikea.com/gb/en/customer-service/return-policy/).\\n\\n *Within 14 days of delivery.\\n"]
+    },
+    {
+      "Question": ["Are my personal details given to third parties?"],
+      "Answer": ["We sometimes employ third parties to provide services on behalf of IKEA. More information can be found in our Privacy Policy [here.](http://www.ikea.com/gb/en/customer-service/privacy-policy/)"]
+    },
+    {
+      "Question": ["Can I cancel an order I placed online?"],
+      "Answer": ["IKEA complies fully with the Consumer Contracts Regulations. You may cancel at any time before delivery by emailing us [here](http://www.ikea.com/gb/en/customer-service/contact-us/email/) or by [contacting us](http://www.ikea.com/gb/en/customer-service/contact-us/) with your order details. After receiving your goods we understand you need time to consider your purchase. If you would like to cancel within 14 days of receiving your items, you may take the items to your nearest store with your order receipt email or contact us for collection."]
+    },
+    {
+      "Question": ["Can I add to or change an existing order?"],
+      "Answer": ["If you need to make a change to an existing order, please [call us](http://www.ikea.com/gb/en/customer-service/contact-us/) as soon as possible. Once your order has been confirmed any changes may delay your delivery date. To add to an order placed in store, you would need to return to store."]
+    },
+    {
+      "Question": ["Can I order online and pick up from a store?"],
+      "Answer": ["All our online products are delivered directly from our distribution centre to your home. It is not possible to collect online purchases from a store, IKEA do not offer a product reservation service in our stores. Currently our online orders are only able to be delivered directly from our distribution centre to your home or delivery address, however we are trialling a new format store along with a click and collect service and the intention will be to roll out a click and collect service to all our stores in the future. In the meantime keep a look out for news about our [Order and Collection points](http://www.ikea.com/gb/en/ikea/ikea-order-and-collection-points/)."]
+    }
+  ]
+}

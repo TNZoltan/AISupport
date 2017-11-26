@@ -1,0 +1,746 @@
+{"Intents": [
+  {
+    "Question": ["How do I buy online?","How to shop online"  ],
+    "Answer": ["To find out how you can shop online please [click here.](http://www.ikea.com/gb/en/customer-service/how-to-shop-at-ikea/)"]
+  },
+  {
+    "Question": "Why are there products on the website that I cannot buy online?",
+    "Answer": "The majority of the IKEA furniture range is available at Shop Online along with an increasing selection of our home accessories range. We are planning to increase the ranges available in future. We show as many items as possible online as you may wish to visit one of our stores for the item, and it will enable you to have the product details to hand before you visit. Items available to purchase online display the \"available to buy online\" option."
+  },
+  {
+    "Question": "Are your prices online the same as in store?",
+    "Answer": "Shop Online product prices will normally be the same as in store prices. However, occasionally promotions will mean some prices can differ.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/shopping-online/"
+  },
+  {
+    "Question": "What if I change my mind after ordering online?",
+    "Answer": "\\n\\n It's fine to change your mind. You are able to cancel or amend an order by [contacting us](http://www.ikea.com/gb/en/customer-service/contact-us/). If you've already had delivery and you've changed your mind, simply take to a store, or if this is not possible, speak to a co-worker about arranging a collection*. Full details can be found in the Shop Online [Returns Policy](http://www.ikea.com/gb/en/customer-service/return-policy/).\\n\\n *Within 14 days of delivery.\\n",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/shopping-online/"
+  },
+  {
+    "Question": "Are my personal details given to third parties?",
+    "Answer": "We sometimes employ third parties to provide services on behalf of IKEA. More information can be found in our Privacy Policy [here.](http://www.ikea.com/gb/en/customer-service/privacy-policy/)",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/shopping-online/"
+  },
+  {
+    "Question": "Can I cancel an order I placed online?",
+    "Answer": "IKEA complies fully with the Consumer Contracts Regulations. You may cancel at any time before delivery by emailing us [here](http://www.ikea.com/gb/en/customer-service/contact-us/email/) or by [contacting us](http://www.ikea.com/gb/en/customer-service/contact-us/) with your order details. After receiving your goods we understand you need time to consider your purchase. If you would like to cancel within 14 days of receiving your items, you may take the items to your nearest store with your order receipt email or contact us for collection.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/shopping-online/"
+  },
+  {
+    "Question": "Can I add to or change an existing order?",
+    "Answer": "If you need to make a change to an existing order, please [call us](http://www.ikea.com/gb/en/customer-service/contact-us/) as soon as possible. Once your order has been confirmed any changes may delay your delivery date. To add to an order placed in store, you would need to return to store.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/shopping-online/"
+  },
+  {
+    "Question": "Can I order online and pick up from a store?",
+    "Answer": "All our online products are delivered directly from our distribution centre to your home. It is not possible to collect online purchases from a store, IKEA do not offer a product reservation service in our stores. Currently our online orders are only able to be delivered directly from our distribution centre to your home or delivery address, however we are trialling a new format store along with a click and collect service and the intention will be to roll out a click and collect service to all our stores in the future. In the meantime keep a look out for news about our [Order and Collection points](http://www.ikea.com/gb/en/ikea/ikea-order-and-collection-points/).",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/shopping-online/"
+  },
+  {
+    "Question": "Can I add assembly to my order?",
+    "Answer": "It is not possible to add assembly to your online order. Please visit your nearest store to arrange assembly or call us for more information. Additional details can be found on our [services page.](http://www.ikea.com/gb/en/customer-service/services-at-ikea/assembly/)",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/shopping-online/"
+  },
+  {
+    "Question": "Where does IKEA Shop Online deliver to?",
+    "Answer": "\\n\\n At the moment we deliver to mainland UK* and Northern Ireland. Some outlying areas are not covered by our delivery network. If you want to take your order abroad we are happy to deliver to your shipping agent for onward transfer. Please ensure this is pre-arranged with the shipping agent.\\n\\n *With the exception of the Isle of Wight.\\n",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/shopping-online/"
+  },
+  {
+    "Question": "Do you ship abroad?",
+    "Answer": "\\n\\n At the moment we deliver to mainland UK* and Northern Ireland. Some outlying areas are not covered by our delivery network. If you want to take your order abroad we are happy to deliver to your shipping agent for onward transfer. Please ensure this is pre-arranged with the shipping agent.\\n\\n *With the exception of the Isle of Wight.\\n",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/shopping-online/"
+  },
+  {
+    "Question": "Does IKEA ship abroad?",
+    "Answer": "\\n\\n At the moment we deliver to mainland UK* and Northern Ireland. Some outlying areas are not covered by our delivery network. If you want to take your order abroad we are happy to deliver to your shipping agent for onward transfer. Please ensure this is pre-arranged with the shipping agent.\\n\\n *With the exception of the Isle of Wight.\\n",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/shopping-online/"
+  },
+  {
+    "Question": "What are IKEA Order and Collection Points?",
+    "Answer": "Our Order and Collection Points are a new format for IKEA. They are smaller than a traditional store and offer a far more creative and interactive shopping experience to our larger stores. We will carry out a lot of testing in our collection points and each one will be slightly different. We will look to gain our customers input and feedback in each unit. If you have any ideas on how to improve our collection points then please let a member of our staff know.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/order-and-collection-points/"
+  },
+  {
+    "Question": "Am I able to take products home with me from the Order and Collection point?",
+    "Answer": "Our Order and Collection points are a lot smaller than our traditional stores therefore not all of our range is available to take home with you. There are a small selection of articles that you can take home with you and these will be available in our 'take home' areas of the store.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/order-and-collection-points/"
+  },
+  {
+    "Question": "Are all the services available in a traditional IKEA store available in an Order and Collection Point?",
+    "Answer": "There are some differences between the services available in an Order and Collection Point and a traditional IKEA store. Order and Collection Points offer kitchen and bathroom installation, assembly, planning and measuring services as well as a finance offer.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/order-and-collection-points/"
+  },
+  {
+    "Question": "How many products can I order for delivery or collection?",
+    "Answer": "You can order over 8,500 products from our normal online range that can be delivered either into the store for collection or directly to your home.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/order-and-collection-points/"
+  },
+  {
+    "Question": "Can I choose the delivery date or collection date for my order?",
+    "Answer": "This can vary depending on the product and your location. In the majority of our collection points, we aim to have your order ready for collection within 78 hours.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/order-and-collection-points/"
+  },
+  {
+    "Question": "How much does it cost to have an order delivered?",
+    "Answer": "Please click [here](http://www.ikea.com/gb/en/ikea/ikea-order-and-collection-points/) to check your nearest Order and Collection Point for pricing information.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/order-and-collection-points/"
+  },
+  {
+    "Question": "How much does it cost to order to the collection point?",
+    "Answer": "Please click [here](http://www.ikea.com/gb/en/ikea/ikea-order-and-collection-points/) to check your nearest Order and Collection Point for pricing information.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/order-and-collection-points/"
+  },
+  {
+    "Question": "Does the Order and Collection Point offer the normal payment methods?",
+    "Answer": "Yes, all the normal payment methods are available at an Order and Collection Point.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/order-and-collection-points/"
+  },
+  {
+    "Question": "Can I return items that I have bought in other IKEA stores to an Order and Collection Point?",
+    "Answer": "Yes, the Order and Collection Points operate the same returns policy as other IKEA stores. You can return your unused items in their original packaging within 365 days, together with your till receipt or copy of your online order confirmation for a full refund.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/order-and-collection-points/"
+  },
+  {
+    "Question": "Does the Order and Collection Point have a restaurant?",
+    "Answer": "Due to the size of our collection points, we are unable to offer the traditional IKEA restaurant. Instead, each one will have a hot and cold food offer for you, serving a range of IKEA food products and specialty coffee.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/order-and-collection-points/"
+  },
+  {
+    "Question": "Is the IKEA FAMILY offer available in the Order and Collection Point?",
+    "Answer": "Yes, the IKEA Family offer is available to Order and Collection Point customers.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/order-and-collection-points/"
+  },
+  {
+    "Question": "Are there any facilities for babies and small children?",
+    "Answer": "High chairs are available and we also offer a children's menu, free baby food and food warming facilities. In all of our locations we also have baby nursing facilities. Please ask a member of staff for details.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/order-and-collection-points/"
+  },
+  {
+    "Question": "Can I get a hot dog?",
+    "Answer": "As our Order and Collection points are different to our main stores and we are testing different formats, we currently do not offer hot dogs however we will review our food offer based on the wishes of our customers.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/order-and-collection-points/"
+  },
+  {
+    "Question": "Do you serve hot meals and can I get a cooked breakfast?",
+    "Answer": "There will be a select range of warm food available for eating in or taking away. While a cooked breakfast will not be available, there will be a range of breakfast food for you to choose from.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/order-and-collection-points/"
+  },
+  {
+    "Question": "Is tea and coffee free for IKEA Family members?",
+    "Answer": "There is an IKEA Family member price for all the hot drinks within the range.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/order-and-collection-points/"
+  },
+  {
+    "Question": "Are there IKEA Family offers on food?",
+    "Answer": "Yes, there will be IKEA Family offers on food, however, these may vary from the offers available in traditional stores.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/order-and-collection-points/"
+  },
+  {
+    "Question": "Are there meatballs?",
+    "Answer": "We know that there is great demand for our meatballs, although not all collection points will have a hot meatball offer available, we have made sure that there are frozen meatballs available for you to take home and cook yourself.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/order-and-collection-points/"
+  },
+  {
+    "Question": "Do you sell gift cards?",
+    "Answer": "Yes, gift cards are available.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/order-and-collection-points/"
+  },
+  {
+    "Question": "Do you deliver?",
+    "Answer": "Yes, we deliver. You can either visit one our stores where you may be able to use our [home delivery](http://www.ikea.com/gb/en/customer-service/services-at-ikea/home-delivery/) service to arrange next day delivery, or you may purchase online to have products delivered directly to you in a few days.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/top-questions/"
+  },
+  {
+    "Question": "How do I check stock availability?",
+    "Answer": "Every effort is made to maintain the availability of items shown in the IKEA catalogue, but due to popularity some products may not always be available. You can check availability of stock on the product information pages.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/top-questions/"
+  },
+  {
+    "Question": "Do you provide extra or replacement fittings?",
+    "Answer": "As long as the fittings have a [6 digit code](http://gbinincontact.ikea.com/contactus/Images/Spare_parts.png) in the assembly guide, we can arrange for these to be posted directly to you free of charge. [Just click here to fill out a spare parts request form.](http://gbinincontact.ikea.com/CONTACTUS/EMAIL_CONTACTFORM.ASPX?MissingParts=Yes) If you no longer have the assembly guide, copies can be found in the product description on the website, for older products please contact us to request.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/top-questions/"
+  },
+  {
+    "Question": "How do I make changes to my IKEA FAMILY card details, or cancel my account?",
+    "Answer": "You can update any of your details such as name, address, contact details, marketing preferences and home interests online via your [IKEA FAMILY account](https://internal.secure2.ikea.com/gb/en/user/login/). Alternatively you may [contact us](http://www.ikea.com/gb/en/customer-service/contact-us/).",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/top-questions/"
+  },
+  {
+    "Question": "Can I return items?",
+    "Answer": "\\n\\n If you're not totally satisfied you can return products within 365 days. We will give you a full refund by the same method as your original payment for products that are returned with proof of purchase in new and unused condition and, if possible, the packaging. You can return any product, even if you assembled it, as long as it's in re-saleable condition. Unless faulty, we may refuse the return or offer an exchange or gift card only if the returns criteria are not fully met. \\n\\n If you purchased online you may take your items back to any IKEA store within the UK, alternatively you may arrange collection of your online purchase by [contacting us](http://www.ikea.com/gb/en/customer-service/contact-us/). See our [Returns Policy](http://www.ikea.com/gb/en/customer-service/return-policy/) for more information.\\n",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/top-questions/"
+  },
+  {
+    "Question": "How do I shop in IKEA?",
+    "Answer": "\\n\\n We want your next trip to IKEA to be as pleasant as possible. So, here are some tips on how to shop the easy way at our IKEA stores! IKEA stores have free parking* and provide easy access for the disabled. Everything you need to shop is available at the entrance: pencils, paper, tape measures, store guides, catalogues, shopping strollers and shopping bags. \\n\\n *Free parking subject to a minimum spend at IKEA Southampton and IKEA Coventry.\\n",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/before-you-visit/"
+  },
+  {
+    "Question": "How do I check stock availability?",
+    "Answer": "Every effort is made to maintain the availability of items shown in the IKEA catalogue, but due to popularity some products may not always be available. You can check availability of stock on the product information pages.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/before-you-visit/"
+  },
+  {
+    "Question": "What online tools do you have to assist with planning?",
+    "Answer": "There are a number of online planning tools available for you to use to help you furnish your home, your way. [See our online planning tools.](http://www.ikea.com/gb/en/customer-service/planning-tools/)",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/before-you-visit/"
+  },
+  {
+    "Question": "Can I buy items online?",
+    "Answer": "\\n\\n Most of the IKEA range is available to buy online for delivery from our distribution centre to your home address. Find out [more information here](http://www.ikea.com/gb/en/customer-service/how-to-shop-at-ikea/).\\n\\n We currently don't offer online or home-shopping in the Republic of Ireland but we do plan to introduce it within the next few months. In the interim the Dublin store looks forward to welcoming you.\\n",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/before-you-visit/"
+  },
+  {
+    "Question": "What additional services do you offer to help me shop?",
+    "Answer": "We offer a number of services from home delivery to finance. [Find more information here.](http://www.ikea.com/gb/en/customer-service/services-at-ikea/)",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/before-you-visit/"
+  },
+  {
+    "Question": "Do you offer any guarantees on products?",
+    "Answer": "We do offer a standard one year guarantee on all products, in addition many of our products come with a longer guarantee. You can find out more information on the IKEA [everyday quality guarantees.](http://www.ikea.com/gb/en/customer-service/guarantees-and-warranties/)",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/before-you-visit/"
+  },
+  {
+    "Question": "Can I purchase items over the phone, for delivery or collection from a store?",
+    "Answer": "Unfortunately it is not possible to accept payments over the phone or reserve items for collection. However we are introducing a number of small [Order and Collection points](http://www.ikea.com/gb/en/ikea/ikea-order-and-collection-points/) which do offer a collection service.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/before-you-visit/"
+  },
+  {
+    "Question": "Can I reserve an item for collection?",
+    "Answer": "It is not possible to reserve an item in our stores; you are able to check stock availability before visiting a store on the product information pages.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/before-you-visit/"
+  },
+  {
+    "Question": "What payment methods do you accept?",
+    "Answer": "\\n\\n In store you can pay with all major credit and debit cards including: VISA, VISA Electron, Mastercard, Maestro, Delta, American Express, IKEA Home Card, IKEA Gift Card and cash. We do not accept cheques. \\n\\n Online you can pay with all major credit and debit cards including: VISA, VISA Electron, Mastercard, Maestro, Delta, American Express and IKEA Gift Card.\\n",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/payment/"
+  },
+  {
+    "Question": "How can I pay?",
+    "Answer": "\\n\\n In store you can pay with all major credit and debit cards including: VISA, VISA Electron, Mastercard, Maestro, Delta, American Express, IKEA Home Card, IKEA Gift Card and cash. We do not accept cheques. \\n\\n Online you can pay with all major credit and debit cards including: VISA, VISA Electron, Mastercard, Maestro, Delta, American Express and IKEA Gift Card.\\n",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/payment/"
+  },
+  {
+    "Question": "Do you accept credit cards?",
+    "Answer": "\\n\\n In store you can pay with all major credit and debit cards including: VISA, VISA Electron, Mastercard, Maestro, Delta, American Express, IKEA Home Card, IKEA Gift Card and cash. We do not accept cheques. \\n\\n Online you can pay with all major credit and debit cards including: VISA, VISA Electron, Mastercard, Maestro, Delta, American Express and IKEA Gift Card.\\n",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/payment/"
+  },
+  {
+    "Question": "Can I pay with check?",
+    "Answer": "\\n\\n In store you can pay with all major credit and debit cards including: VISA, VISA Electron, Mastercard, Maestro, Delta, American Express, IKEA Home Card, IKEA Gift Card and cash. We do not accept cheques. \\n\\n Online you can pay with all major credit and debit cards including: VISA, VISA Electron, Mastercard, Maestro, Delta, American Express and IKEA Gift Card.\\n",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/payment/"
+  },
+  {
+    "Question": "IKEA Home Card",
+    "Answer": "The IKEA Home card was a payment card previously offered by IKEA. Existing holders may still use their cards in store. The card was issued by IKANO Financial Services. If you have any questions about your card, please contact IKANO Customer Service at 0871 781 3080 or via email at customerservice@ikano.net. The IKEA Home card cannot be used online.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/payment/"
+  },
+  {
+    "Question": "Do you offer finance options or interest free credit?",
+    "Answer": "We offer interest-free credit (0% APR Representative) in all areas of the store. Take advantage of our 12-month interest-free credit option available when you spend £600 or more, our 24-month option available when you spend £1,200 or more or our 36-month option available when you spend £1,800 or more. All finance agreements must be set up in store. You can read more about IKEA finance options [here.](http://www.ikea.com/gb/en/customer-service/services-at-ikea/finance/)",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/payment/"
+  },
+  {
+    "Question": "How do I make a payment on the website?",
+    "Answer": "When you are ready to proceed to the checkout, follow the steps given so that we can confirm all your details, including payment authorisation. We will then acknowledge your order by email.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/payment/"
+  },
+  {
+    "Question": "Why do we need your card security code?",
+    "Answer": "\\n\\n We ask for the security code from your payment card to prevent the fraudulent use of your account. This is printed on your card but is not embossed or in the magnetic strip, so only the person in possession of the card should know the code.\\n\\n On most UK cards, the security code equals the last three digits of the number printed on the signature strip.\\n",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/payment/"
+  },
+  {
+    "Question": "How can I be sure that shopping online with IKEA is secure?",
+    "Answer": "IKEA is committed to ensuring that your personal details will be kept safe at all times and has a number of fraud prevention measures in place. You will be asked to provide information to ensure that your card is not being used fraudulently online.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/payment/"
+  },
+  {
+    "Question": "Verified by VISA and Mastercard SecureCode (collectively known as 3d Secure)",
+    "Answer": "\\n\\n These are schemes that have been introduced by card issuers to help in the fight against online fraud and IKEA is now participating in these schemes along with a growing number of retailers. To verify your transaction you will be asked to enter your 3d Secure password. If you haven't already done so, you will need to register for 'Verified by Visa' and 'Mastercard SecureCode' with your debit/credit card issuer. \\n\\n You can register either by visiting the card issuer's website directly or simply by placing an order online. You will automatically be referred to your card issuer's website to register during the checkout process. If you encounter problems with registration, please contact your card issuing bank directly. \\n\\n Once you have registered, whenever you shop online with any retailer that shows the 'Verified by Visa' and 'Mastercard SecureCode' logos, you will have one more step in the shopping process. You will be taken to their debit/credit card issuers' website to enter your password before you are returned to the checkout to complete the purchase. This ensures that only the person who enters the correct password should be able to shop online using your card.\\n",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/payment/"
+  },
+  {
+    "Question": "How safe are my personal details and credit card information?",
+    "Answer": "The security of our customers' details is a number one priority for us. We work with a fully integrated and secure checkout process. All payment details are secure at all times. You can view our full privacy policy [here.](http://www.ikea.com/gb/en/customer-service/privacy-policy/)",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/payment/"
+  },
+  {
+    "Question": "What if my card is declined?",
+    "Answer": "IKEA will only decline a transaction on the advice of your issuing bank. It may be that you have insufficient funds in your account, that your card has been blocked because of unusual or suspicious activity, or that the details you have provided do not match those held by your issuing bank. In each case, you should contact your card issuer in the first instance to try to resolve the problem or use an alternative payment method.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/payment/"
+  },
+  {
+    "Question": "Why does IKEA only refund to the same payment card?",
+    "Answer": "It is a condition of the card schemes (VISA, Mastercard and Maestro) that all refunds must be processed onto the same card as the original payment was made in order to help reduce fraudulent activity on cards. IKEA must comply fully with all card scheme rules in order to be able to accept these card types.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/payment/"
+  },
+  {
+    "Question": "When am I entitled to claim a VAT refund and what do I need to do to obtain one?",
+    "Answer": "\\n\\n If you are purchasing goods in an IKEA Store you are entitled to claim a VAT refund when you are either: • Non EU resident • Registered for VAT in the EU, other than the UK. Non EU resident: If you are exporting purchases outside the EU you may be entitled to a VAT refund. If you are shipping the goods as freight please request an IKEA 'VAT refunds for export outside the EU' notice. If you are taking the goods with you as on board luggage, you must request a 'TaxFreeWorldwide' receipt.\\n\\n If you have any questions relating to the repayment of VAT, please contact our VAT Refund team by email at VATRefunds@ikea.com with the following information:\\n\\n*   order confirmation or receipt\\n*   utility bill for your non UK address\\n*   certificate of shipment\\n*   details of yourself including but not limited to; contact numbers, full name, full address, etc.\\n\\n For more information visit [www.hmrc.gov.uk.](https://www.gov.uk/government/organisations/hm-revenue-customs)\\n",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/payment/"
+  },
+  {
+    "Question": "Data Protection",
+    "Answer": "We are only able to talk to the person who placed the order. If you wish for us to talk to someone else on your behalf regarding your order, for example a family member, then please contact us and we will add their details to your order.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/payment/"
+  },
+  {
+    "Question": "Can I return items?",
+    "Answer": "\\n\\n If you're not totally satisfied you can return products within 365 days. We will give you a full refund by the same method as your original payment for products that are returned with proof of purchase in new and unused condition and, if possible, the packaging. You can return any product, even if you assembled it, as long as it's in re-saleable condition. Unless faulty, we may refuse the return or offer an exchange or gift card only if the returns criteria are not fully met. \\n\\n If you purchased online you may take your items back to any IKEA store within the UK, alternatively you may arrange collection of your online purchase by [contacting us](http://www.ikea.com/gb/en/customer-service/contact-us/). See our [Returns Policy](http://www.ikea.com/gb/en/customer-service/return-policy/) for more information.\\n",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/returns-and-product-issues/"
+  },
+  {
+    "Question": "There seems to be a mistake on my receipt from the store. What should I do?",
+    "Answer": "Please return to the store with your receipt and we can investigate this for you. If you are unable to return to the store please",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/returns-and-product-issues/"
+  },
+  {
+    "Question": "Can I return a mattress?",
+    "Answer": "Unless faulty, you may only return a mattress for a refund within 365 days if the packaging is still on the mattress and unopened. We do understand that you may need to try a mattress first to see if it's comfortable that's why you may exchange your mattress once within 90 days under our [Love it or exchange it](http://www.ikea.com/gb/en/customer-service/return-policy/) offer.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/returns-and-product-issues/"
+  },
+  {
+    "Question": "Can I return a made to order product?",
+    "Answer": "Goods made to order can be cancelled or returned unaltered at any time within 365 days of purchase the same as any other product. Return unused items in their original packaging, together with your till receipt or copy of your online order confirmation email, for a full refund or exchange. See our [Returns Policy](http://www.ikea.com/gb/en/customer-service/return-policy/)",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/returns-and-product-issues/"
+  },
+  {
+    "Question": "Can I return goods I have opened or assembled?",
+    "Answer": "Items can be returned to the store with your original receipt, but should be disassembled. Depending on the condition of the items, the value and method of refund would be at the discretion of the store.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/returns-and-product-issues/"
+  },
+  {
+    "Question": "Can a different account be credited with a refund?",
+    "Answer": "A refund has to be made to the original card used for payment. In the event that you are unable to access this account we may refund to a gift card.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/returns-and-product-issues/"
+  },
+  {
+    "Question": "Do you provide extra or replacement fittings?",
+    "Answer": "As long as the fittings have a [6 digit code](http://gbinincontact.ikea.com/contactus/Images/Spare_parts.png) in the assembly guide, we can arrange for these to be posted directly to you free of charge. [Just click here to fill out a spare parts request form.](http://gbinincontact.ikea.com/CONTACTUS/EMAIL_CONTACTFORM.ASPX?MissingParts=Yes) If you no longer have the assembly guide, copies can be found in the product description on the website, for older products please contact us to request.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/returns-and-product-issues/"
+  },
+  {
+    "Question": "I'm missing part of a product I've just purchased.",
+    "Answer": "Please take your receipt and copy of the assembly guide showing the piece that is missing to the store and we will replace this for you. If the part has a [6 digit code](http://gbinincontact.ikea.com/contactus/Images/Spare_parts.png) on the assembly guide we can arrange for these to be posted directly to you free of charge. [Just click here to fill out a spare parts request form.](http://gbinincontact.ikea.com/CONTACTUS/EMAIL_CONTACTFORM.ASPX?MissingParts=Yes)",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/returns-and-product-issues/"
+  },
+  {
+    "Question": "The product I've purchased has a faulty or damaged part.",
+    "Answer": "You only need to take the faulty part to a store with your receipt and we will exchange this for you. Alternatively you may return the whole product for a replacement or full refund. If you damaged the item yourself and swiped your IKEA FAMILY card at the till, you may be covered by [IKEA FAMILY card insurance. ](http://www.ikea.com/gb/en/ikea-family/)",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/returns-and-product-issues/"
+  },
+  {
+    "Question": "Can I get help with assembly?",
+    "Answer": "\\n\\n You can find assembly guides next to the product description online, ask in store or [contact us](http://www.ikea.com/gb/en/customer-service/contact-us/) for general help. Or if you would like the furniture assembled* you can find more information on our [services](http://www.ikea.com/gb/en/customer-service/services-at-ikea/) page.\\n\\n *Assembly Service is not available for online orders. \\n",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/returns-and-product-issues/"
+  },
+  {
+    "Question": "Missing Assembly Guide",
+    "Answer": "Copies can be found in the product description on the website. If you are unable to locate the assembly guide, please [contact us](http://www.ikea.com/gb/en/customer-service/contact-us/) with information about the product or if possible [email pictures](http://www.ikea.com/gb/en/customer-service/contact-us/email/) and we will do our best to locate them for you.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/returns-and-product-issues/"
+  },
+  {
+    "Question": "Faulty items, under guarantee",
+    "Answer": "\\n\\n IKEA offers a generous guarantee policy. Guarantees can be found in the back of the catalogue or by clicking [here.](http://www.ikea.com/gb/en/customer-service/guarantees-and-warranties/) If you do notice a problem with any product within the first year of purchase or within the full guarantee period*, please return the item to a store or [email pictures](http://www.ikea.com/gb/en/customer-service/contact-us/email/) and a description of the fault. Please include proof of the original purchase from IKEA.\\n\\n * Please note that appliances bought from the Bargain Corner (\"As is\" corner) in stores only include 1 year guarantee.\\n",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/returns-and-product-issues/"
+  },
+  {
+    "Question": "Where do I find information about product recalls?",
+    "Answer": "For information about product recalls and safety alerts please visit our press page [here](http://www.ikea.com/gb/en/this-is-ikea/newsroom/product-recalls/)",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/returns-and-product-issues/"
+  },
+  {
+    "Question": "Do you deliver?",
+    "Answer": "Yes, we deliver. You can either visit one our stores where you may be able to use our [home delivery](http://www.ikea.com/gb/en/customer-service/services-at-ikea/home-delivery/) service to arrange next day delivery, or you may purchase online to have products delivered directly to you in a few days.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/dispatch-and-delivery/"
+  },
+  {
+    "Question": "When do you deliver?",
+    "Answer": "\\n\\n If you arrange our home delivery in store, the delivery will normally take place the following day. \\n\\n For online deliveries, there are two delivery methods. We aim to deliver your order within 14 days, depending on stock availability and where you live. \\n\\n Parcel Force will deliver orders Monday to Friday between 7am and 6pm. Truck deliveries take place on nominated days depending on where you live. \\n\\n We will confirm your delivery date via email, within 72 hours of placing your order. If this date is unsuitable, we can always change it. However, please remember, we cannot change the days we deliver to your area.\\n",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/dispatch-and-delivery/"
+  },
+  {
+    "Question": "Can I get a faster delivery?",
+    "Answer": "If you are ordering online, the estimated delivery date is the earliest date we can deliver as the items come from our distribution centre. If you visit a store, our home delivery service may be able to offer you next day delivery.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/dispatch-and-delivery/"
+  },
+  {
+    "Question": "Do you do international shipping?",
+    "Answer": "\\n\\n Our online shopping service is only able to deliver items to mainland UK* and Northern Ireland; however we can deliver to a shipping agent if you specify them as the delivery address when you order. Please ensure this is pre-arranged with the shipping agent.\\n\\n *With the exception of the Isle of Wight.\\n",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/dispatch-and-delivery/"
+  },
+  {
+    "Question": "Can I choose a delivery time?",
+    "Answer": "\\n\\n If you arrange our home delivery in store, the delivery will normally take place the following day. The delivery crew will contact you one hour before they are due to arrive.\\n\\n For online orders or orders sent from our distribution centre, you will be allocated either a parcel or truck delivery depending on which products you purchase. Parcel deliveries take place Monday to Friday between 7am-6pm. With truck deliveries you will be allocated a four hour time slot which will be sent to you via text message 48 hours prior to the delivery. You will receive a one hour pre call for truck deliveries.\\n",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/dispatch-and-delivery/"
+  },
+  {
+    "Question": "Can I order delivery to a different name or address?",
+    "Answer": "Yes, as long as the delivery address is in mainland UK or Northern Ireland.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/dispatch-and-delivery/"
+  },
+  {
+    "Question": "Can I track my delivery?",
+    "Answer": "If you have purchased online you will be able to use our [order tracker](https://secure.ikea.com/gb/en/order/ordertracking/). You will need your order number, post code and the email address you gave when the order was placed. For deliveries booked in store we will agree a delivery day, then call you one hour before we are due to deliver.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/dispatch-and-delivery/"
+  },
+  {
+    "Question": "Can I change my delivery date?",
+    "Answer": "The original estimated date you receive is the earliest date we can get your order to you. It may be possible to deliver it at a slightly later date, on a day that's more convenient to you. Please [contact us](http://www.ikea.com/gb/en/customer-service/contact-us/) as soon as possible if you require a later date.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/dispatch-and-delivery/"
+  },
+  {
+    "Question": "How do I tell you about delivery restrictions?",
+    "Answer": "To ensure the smooth delivery of your order, there are a few points we need to know about your address:",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/dispatch-and-delivery/"
+  },
+  {
+    "Question": "Do you do next day delivery?",
+    "Answer": "When you visit a store the majority of our deliveries will be within 48 hours, and normally next day subject to availability and the distance you live from the store.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/dispatch-and-delivery/"
+  },
+  {
+    "Question": "How much does delivery cost?",
+    "Answer": "When you shop online, you can see the cost of delivery before ordering by placing your items in the basket, adding your postcode and pressing calculate. For our home delivery service from a store, please click [here](http://www.ikea.com/gb/en/customer-service/services-at-ikea/home-delivery/) and check your local store for delivery prices.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/dispatch-and-delivery/"
+  },
+  {
+    "Question": "Will I be able to order online and then pick up in the store?",
+    "Answer": "Currently our online orders are only able to be delivered directly from our distribution centre to your home, however we are trialling a new format store along with a click and collect service and the intention will be to roll out a click and collect service to all our stores in the future. In the meantime keep a look out for news about our [Order and Collection points](http://www.ikea.com/gb/en/ikea/ikea-order-and-collection-points/).",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/dispatch-and-delivery/"
+  },
+  {
+    "Question": "What do I do if I have something missing from my delivery?",
+    "Answer": "Please [contact us](http://www.ikea.com/gb/en/customer-service/contact-us/) as soon as possible.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/dispatch-and-delivery/"
+  },
+  {
+    "Question": "When do we confirm delivery dates?",
+    "Answer": "\\n\\n If you arrange our home delivery in store, the delivery will normally take place the following day and the delivery crew will contact you one hour prior to delivery.\\n\\n If you order online, you will see a delivery date on the website when you place your order and in your Order Acknowledgement email.\\n",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/dispatch-and-delivery/"
+  },
+  {
+    "Question": "What delivery communication can I expect?",
+    "Answer": "\\n\\n For deliveries booked in store, you will receive a one hour pre call prior to delivery. \\n\\n For deliveries booked online, please see the information listed below:\\n\\n Within 72 hours we will confirm your delivery date in your Delivery Advice email, the email will also specify a parcel courier or 2 man truck delivery. If you have included a mobile telephone number, then we will also SMS text message to confirm this date. Please check the Delivery Advice email carefully. \\n\\n Parcel delivery We will update our order tracking website with your Parcel Force tracking number 24-48 hours before delivery. You can then access this to track your delivery whilst on its journey to you. \\n\\n Truck delivery When we have confirmed your delivery date there are a few more things that we would like to keep you up to date with, and therefore you will receive the following text messages from us. 48 hours before your delivery, we will text you with your AM or PM 4 hour delivery window. On the day of delivery, our delivery team will call you one hour before your delivery is due to ensure that you are available to take delivery and to check with you that there are no unexpected access restrictions. Please be available to verify the content, condition and to sign for your order. Alternatively, you can appoint another adult whose instructions you are happy for us to follow. All courier deliveries are to the address point of entry only. For 2 man truck deliveries, please tell us in advance any access issues, e.g. narrow doors, difficult stairs, upper floor delivery, and we will do our best to deliver to the room of your choice. We do our very best to meet the delivery date you have been given however there are times where we are unable to do this and your delivery date will be different. We will always discuss any changes with you as soon as we can. We would advise you not to make any plans to accept your delivery, for example booking time off from work, until we have confirmed the date with you.\\n",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/dispatch-and-delivery/"
+  },
+  {
+    "Question": "What is IKEA FAMILY?",
+    "Answer": "IKEA FAMILY is the IKEA loyalty programme. IKEA FAMILY is open to everyone, and it's free to join. With an IKEA FAMILY card you get discounts on selected home furnishing products, food products and services. We also hold member only events in-stores such as free home furnishing workshops/seminars and previews of new ranges. [Find out more](http://www.ikea.com/gb/en/ikea-family/)",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/ikea-family-faq/"
+  },
+  {
+    "Question": "How can I become an IKEA FAMILY member?",
+    "Answer": "It is free to sign up and you can start using the benefits the same day. You can sign up in-store at one of the IKEA FAMILY kiosks or [online today](http://www.ikea.com/gb/en/user/signup/). You will receive a temporary card on registration; your plastic card will be sent to you within 2-4 weeks of registration. Your temporary card entitles you to all the benefits until the plastic card arrives.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/ikea-family-faq/"
+  },
+  {
+    "Question": "What do I do if I want to shop at IKEA before my card arrives?",
+    "Answer": "You can always print out a temporary card, either online or in store at an IKEA FAMILY kiosk. You need to show a card, plastic or temporary, at time of purchase to qualify for an IKEA FAMILY offer in store. Or use the electronic version included [in the IKEA app](http://www.ikea.com/gb/en/customer-service/ikea-apps/)",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/ikea-family-faq/"
+  },
+  {
+    "Question": "Rather go card-free?",
+    "Answer": "Download the IKEA Store app to make shopping faster, easier and more fun. This pocket-sized shopping buddy can also store a digital version of your IKEA FAMILY card. Download free via [Google Play](https://play.google.com/store/apps/details?id=com.ikea.kompis) (Android) or the Apple [App Store](https://itunes.apple.com/gb/app/ikea-catalog/id386592716?mt=8) (iOS).",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/ikea-family-faq/"
+  },
+  {
+    "Question": "Can I add an existing purchase to my IKEA FAMILY card?",
+    "Answer": "To qualify for any offers you need to swipe your card at the time of purchase, it is not possible to add an existing purchase at a later date.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/ikea-family-faq/"
+  },
+  {
+    "Question": "What do I do if I have lost my card?",
+    "Answer": "You can request a new card or print a temporary card either in store or immediately using your [online account](https://internal.secure2.ikea.com/gb/en/user/login/). Alternatively you may [contact us](http://www.ikea.com/gb/en/customer-service/contact-us/) and we can have a new one sent out. Delivery for replacement cards is approximately two weeks.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/ikea-family-faq/"
+  },
+  {
+    "Question": "How do I make changes to my IKEA FAMILY card details, or cancel my account?",
+    "Answer": "You can update any of your details such as name, address, contact details, marketing preferences and home interests online via your [IKEA FAMILY account](https://internal.secure2.ikea.com/gb/en/user/login/). Alternatively you may [contact us](http://www.ikea.com/gb/en/customer-service/contact-us/).",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/ikea-family-faq/"
+  },
+  {
+    "Question": "How do I log in to my online account?",
+    "Answer": "You can [login here](http://www.ikea.com/gb/en/user/login/). You need to have an email address registered with us in order to access your online IKEA FAMILY account. [Join here](https://internal.secure2.ikea.com/gb/en/user/signup/).",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/ikea-family-faq/"
+  },
+  {
+    "Question": "I've forgotten my email or password",
+    "Answer": "You can request a new password by selecting \"forgot your password\" from the [login page](http://www.ikea.com/gb/en/user/login/)",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/ikea-family-faq/"
+  },
+  {
+    "Question": "How do I sign up to a workshop, seminar or event?",
+    "Answer": "All upcoming events are listed [here.](http://www.ikea.com/gb/en/ikea-family/ikea-family-events/)",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/ikea-family-faq/"
+  },
+  {
+    "Question": "Can you tell me more about the free product insurance?",
+    "Answer": "IKEA FAMILY members benefit from free product insurance against any accidental damage on the way home or whilst assembling. The insurance is valid on any purchase and not just items with an IKEA FAMILY price. The IKEA FAMILY card must be swiped at time of purchase to insure the products. To claim on your insurance please come to store within 90 days of the date of purchase with the item, your IKEA FAMILY card and your receipt. Insurance can only be claimed in store, not by contacting Customer Service by phone, email or online. Full terms and conditions can be found [here](http://www.ikea.com/gb/en/ikea-family/ikea-family-terms-and-conditions/)",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/ikea-family-faq/"
+  },
+  {
+    "Question": "What are the IKEA FAMILY general terms and conditions?",
+    "Answer": "Full terms and conditions can be found [here](http://www.ikea.com/gb/en/ikea-family/ikea-family-terms-and-conditions/)",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/ikea-family-faq/"
+  },
+  {
+    "Question": "How is my data being used?",
+    "Answer": "IKEA Ltd will safeguard any information provided. More information can be found [here.](http://www.ikea.com/gb/en/customer-service/privacy-policy/)",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/ikea-family-faq/"
+  },
+  {
+    "Question": "Is there credit connected to the IKEA FAMILY card?",
+    "Answer": "There is no credit connected to the card. IKEA does not currently offer a credit card.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/ikea-family-faq/"
+  },
+  {
+    "Question": "Is the IKEA FAMILY card the same as the IKEA Home Card?",
+    "Answer": "No, the IKEA Home Card is a credit card previously offered to IKEA customers. These credit cards are no longer issued, but are still valid as payment in-store for existing Home Card holders.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/ikea-family-faq/"
+  },
+  {
+    "Question": "Who do I contact about my IKEA Home Card?",
+    "Answer": "The IKEA Home card is issued by IKANO Financial Services. If you have any questions about your card, contact IKANO Customer Service at 0871 781 3080 or via email at customerservice@ikano.net.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/ikea-family-faq/"
+  },
+  {
+    "Question": "Can I use my IKEA FAMILY card in another country?",
+    "Answer": "FAMILY cards can only be used in the country they are issued in. If you would like to take advantage of a FAMILY offer in a different country you would need to register in that country.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/ikea-family-faq/"
+  },
+  {
+    "Question": "What is the IKEA catalogue?",
+    "Answer": "The IKEA catalogue is produced in 32 languages, with more than 210 million copies delivered to homes in 44 countries. The catalogue offers more than just a glimpse at the diverse IKEA product range. You'll discover new affordable solutions and creative approaches to help inspire home furnishing ideas for better living. For the best possible ideas and inspiration the online catalogue comes with a [built in app with additional content.](http://www.ikea.com/gb/en/customer-service/ikea-apps/)",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/ikea-catalogue-faq/"
+  },
+  {
+    "Question": "How can I get a copy of the IKEA catalogue?",
+    "Answer": "The IKEA catalogue is mass-distributed annually in the area around each IKEA store. If you did not receive this year's catalogue, stop by the IKEA store near you for a free copy. Alternatively, you can view the whole catalogue online, [download our latest catalogue](http://www.ikea.com/gb/en/customer-service/catalogue-and-brochures/) or view it on the [IKEA catalogue app](http://www.ikea.com/gb/en/customer-service/ikea-apps/) for your smart phone available from your app store.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/ikea-catalogue-faq/"
+  },
+  {
+    "Question": "When does the new catalogue come out?",
+    "Answer": "The annual catalogue is distributed in August/September of each year and is valid for a full year. Prices are guaranteed not to increase while the catalogue is valid. In it you can discover our furnishings, accessories and room settings along with detailed information on materials, colours, sizes, product care, prices and additional content accessible through your smartphone or tablet. That way you can plan your next visit to IKEA all from the comfort of your own home!",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/ikea-catalogue-faq/"
+  },
+  {
+    "Question": "How environmentally friendly is the IKEA catalogue?",
+    "Answer": "Our catalogues are printed on totally chlorine-free paper and contain at least 10-15% post-consumer waste. No rainforest or old-growth fibres are used. The pre-press process is 100% digital, which means no film is used and none of the associated chemicals. No optical brighteners are used on the paper.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/ikea-catalogue-faq/"
+  },
+  {
+    "Question": "What settings or software do I need on my computer to view the IKEA site?",
+    "Answer": "In order to view the IKEA site you need a normal modern web browser like Chrome, Firefox, Internet Explorer or Safari. Both Chrome and Firefox are automatically updated on a frequent basis and IKEA recommend users to always upgrade. For Internet Explorer we support version 8 to 11, and for Safari we support version 5 to 7. If you are using a Smartphone or tablet with Android, both the Chrome browser and the built in Android browser will work since Android version 2.3. If you are using an iPhone or iPad with Safari we support version 5 to 7. The IKEA site is built to support a wide range of browsers and other modern browsers than those mentioned above should work fine too, even if we are not actively testing them in our development. One exception that we know of, is that Internet Explorer 7 and earlier will not support all features.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/website-questions/"
+  },
+  {
+    "Question": "What information is collected about me when I visit the site?",
+    "Answer": "We do not require any information to obtain access to any part of our site, unless specifically stated. We may ask for specific information in order to provide a service to you, such as your IKEA FAMILY card. Information requested may include name, title, company, address, e-mail address, and phone number. We do anonymously track traffic patterns using cookies, in order to measure site performance and make improvements. Cookies are small pieces of information stored on your computer that are read by the browser.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/website-questions/"
+  },
+  {
+    "Question": "I've forgotten my account password.",
+    "Answer": "You can request a new password by selecting \"forgot your password\" from the [login page](http://www.ikea.com/gb/en/user/login/). However if the profile has been locked, due to too many login attempts, please [contact us](http://www.ikea.com/gb/en/customer-service/contact-us/) for assistance.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/website-questions/"
+  },
+  {
+    "Question": "Why have you changed the web platform?",
+    "Answer": "We have acknowledged that the surrounding world and our customer needs are changing rapidly so we introduced a website that can better adapt to support the continuously changing needs.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/website-questions/"
+  },
+  {
+    "Question": "Can I have more than one profile with the same email address?",
+    "Answer": "No, an e-mail address can only be used once (even if one of the profiles is created in another market). If you as a customer need two profiles, e.g. one for IKEA FAMILY and one for IKEA BUSINESS, you will need to use different e-mail addresses.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/website-questions/"
+  },
+  {
+    "Question": "How do I sign up for a store event?",
+    "Answer": "There is an online registration tool that can be found on the IKEA FAMILY section. [Find out more](http://www.ikea.com/gb/en/ikea-family/member-benefits/).",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/website-questions/"
+  },
+  {
+    "Question": "Will the website log-in remember me or do I need to log in every time?",
+    "Answer": "Currently our website does not have \"Remember me\" functionality. You will stay logged in to the website until you decide to log out or end the browsing session.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/website-questions/"
+  },
+  {
+    "Question": "Will I be able to use the same profile (regular or IKEA FAMILY) as before on the new IKEA site?",
+    "Answer": "Yes, you can login using the same credentials as before.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/website-questions/"
+  },
+  {
+    "Question": "What will happen to my saved plans from the planner tools on the old IKEA site?",
+    "Answer": "The saved plans will be available for you when you log on to the planner tools on this site.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/website-questions/"
+  },
+  {
+    "Question": "What will happen to my shopping list on the old IKEA site?",
+    "Answer": "If you were logged in when saving the shopping list it will be intact when signing in to the new IKEA site. However, when you have saved more than one shopping list, only the one modified last will be available on the new website. In other words: if you had 3 shopping lists, and the last thing you did was make a change on shopping list number 2, it's that one which will be available on the new website.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/website-questions/"
+  },
+  {
+    "Question": "Can I find all IKEA products on this site?",
+    "Answer": "This site features hundreds of IKEA products as a way of demonstrating the breadth and depth of our product range; however, this is only a small portion of IKEA's complete product range. Each store carries a much larger selection. Be sure to visit your local IKEA store for a look at our full selection.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/website-questions/"
+  },
+  {
+    "Question": "Can I use my gift card online?",
+    "Answer": "IKEA Gift cards can be used to make a purchase online as long as they have a scratch off pin number on the back of the card. All cards issued after October 2013 will have this pin number.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/ikea-gift-cards-faq/"
+  },
+  {
+    "Question": "How long is my gift card valid for?",
+    "Answer": "Gift cards have no expiry date.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/ikea-gift-cards-faq/"
+  },
+  {
+    "Question": "Can I use gift cards in other countries?",
+    "Answer": "Please see our IKEA gift card terms & conditions [here](http://www.ikea.com/gb/en/customer-service/ikea-gift-cards/) for a list of countries that accept UK gift cards.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/ikea-gift-cards-faq/"
+  },
+  {
+    "Question": "How do I purchase a gift card?",
+    "Answer": "Gift cards may be purchased in store or online [here](http://www.ikea.com/gb/en/customer-service/ikea-gift-cards/).",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/ikea-gift-cards-faq/"
+  },
+  {
+    "Question": "Is there a limit to how many gift cards I can use online?",
+    "Answer": "There is no limit.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/ikea-gift-cards-faq/"
+  },
+  {
+    "Question": "Store opening times and directions?",
+    "Answer": "Each store has their own website which includes opening times, directions and store information. [Click here to choose your favourite local store.](http://www.ikea.com/gb/en/store/)",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/ikea-store-faq/"
+  },
+  {
+    "Question": "Is there parking when I get there?",
+    "Answer": "\\n\\n All IKEA stores have free parking* which include Disabled and Parent & Baby parking bays. All IKEA stores in the UK are equipped with electric car chargers supplied by Ecotricity, which costs £6 for a 30 minute rapid charge. Please visit the [Ecotricity website](https://www.ecotricity.co.uk/for-the-road/our-electric-highway) for more information including charger specifications, card required and how to guides. \\n\\n *Free parking subject to a minimum spend at IKEA Southampton and IKEA Coventry.\\n",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/ikea-store-faq/"
+  },
+  {
+    "Question": "What facilities do you have for people with disabilities?",
+    "Answer": "\\n\\n For our visitors with disabilities, we are pleased to offer the following services at IKEA stores. Wheelchairs, free to use in the store. Assisted shopping, please go to the customer information desk in store to request this. Facilities for hearing impaired visitors.\\n\\n Registered Service Dogs are always welcome.\\n",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/ikea-store-faq/"
+  },
+  {
+    "Question": "Are your stores family friendly?",
+    "Answer": "Each store supplies high chairs, organic baby food, baby food warming stations, and healthy meals for children in the restaurant, play areas and nursing areas. All our stores have a crèche facility usable for 45 minutes at a time (book in store). Bring the whole family we have something for everyone!",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/ikea-store-faq/"
+  },
+  {
+    "Question": "Why are items sometimes out of stock?",
+    "Answer": "Every effort is made to maintain the availability of items shown in the catalogue, but due to popularity and supply issues, some products may not always be available. Generally, IKEA can estimate when a product should be back in stock. You can check the stock availability on the product information page to make sure items are available before you visit.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/ikea-store-faq/"
+  },
+  {
+    "Question": "Do your stores offer home delivery or van hire?",
+    "Answer": "Since most IKEA furniture is flat-packed, you can take your goods home today in your car and enjoy them right away. If you'd prefer, IKEA can arrange [home delivery](http://www.ikea.com/gb/en/customer-service/services-at-ikea/home-delivery/) at a reasonable rate. Visit the home delivery desk in the Customer Service area after checkouts. We also offer a [van hire service](http://www.ikea.com/gb/en/customer-service/services-at-ikea/van-rental/) through Hertz 24/7. Find out more about the IKEA range of [services](http://www.ikea.com/gb/en/customer-service/services-at-ikea/) we can offer.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/ikea-store-faq/"
+  },
+  {
+    "Question": "Can you help me with assembly?",
+    "Answer": "\\n\\n You can find assembly guides next to the product description online, ask in store or [contact us](http://www.ikea.com/gb/en/customer-service/contact-us/) for general help. Or if you would like the furniture assembled* you can find more information on our [services page.](http://www.ikea.com/gb/en/customer-service/services-at-ikea/assembly/)\\n\\n *Assembly Service not available for online orders.\\n",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/ikea-store-faq/"
+  },
+  {
+    "Question": "Can someone help me plan and design rooms?",
+    "Answer": "Many IKEA stores offer a home decoration service if you wish to furnish an entire room or home. Our friendly co-workers will be happy to assist you in store. IKEA also have [online planning tools](http://www.ikea.com/gb/en/customer-service/planning-tools/) for a range of products including storage, kitchen and wardrobe furniture. Our kitchen departments can also arrange a visit to your home to help design your ideal kitchen.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/ikea-store-faq/"
+  },
+  {
+    "Question": "I've lost something at the store - how do I get it back?",
+    "Answer": "For lost items, please return to the store you visited where our co-workers will be happy to help you at the Customer Service desk. Please note that credit cards will be destroyed after 24 hours for security purposes.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/ikea-store-faq/"
+  },
+  {
+    "Question": "There seems to be a mistake on my receipt from the store. What should I do?",
+    "Answer": "Please return to the store with your receipt and we can investigate this for you. If you are unable to return please [contact us](http://www.ikea.com/gb/en/customer-service/contact-us/).",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/ikea-store-faq/"
+  },
+  {
+    "Question": "How do I find a store outside the UK?",
+    "Answer": "To find a store in a different country [go to IKEA.COM](http://www.ikea.com/) and select the country website you require from the list. Or use our [interactive store locator.](http://franchisor.ikea.com/worldmap/interactive.html)",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/ikea-store-faq/"
+  },
+  {
+    "Question": "When is IKEA going to build a store in my Town/City?",
+    "Answer": "IKEA is constantly expanding so we can meet our goal of creating a better everyday life for the many people and reach as many people as possible in a variety of different channels. To read more about our expansion strategy and see which stores are being opened next [click here.](http://www.ikea.com/gb/en/this-is-ikea/newsroom/expansion-in-the-uk/)",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/ikea-store-faq/"
+  },
+  {
+    "Question": "What is Bargain Corner?",
+    "Answer": "\\n\\n Grab a bargain and help the environment!\\n\\n Maybe there's a scratch, it could have been a floor model, or someone took it home and decided it wasn't right for their place and brought it back. It's perfectly good and doesn't deserve to be thrown away. IKEA stores worldwide keep millions of kilos of materials from being wasted and help people like you save piles of money. \\n\\n We are so confident in our Bargain Corner products that we offer the same guarantees on them as new products (except appliances which have a 1 year guarantee). We are unable to reserve items in this area and stock is updated daily.\\n",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/ikea-store-faq/"
+  },
+  {
+    "Question": "What is the IKEA Group?",
+    "Answer": "We are a values-driven company with a passion for life at home. Every product we create is our idea for making home a better place. At the IKEA Group, we have more than 387 stores in 48 countries. [Find out more information about the IKEA group](http://www.ikea.com/gb/en/this-is-ikea/about-the-ikea-group/).",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/about-ikea/"
+  },
+  {
+    "Question": "Who owns the IKEA concept?",
+    "Answer": "IKEA retailing, with its Swedish roots, is based on a franchise system. Inter IKEA Systems B.V., located in Delft, The Netherlands, is the owner and franchisor of the IKEA Concept. IKEA stores are operated by a number of different franchisees in 48 countries.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/about-ikea/"
+  },
+  {
+    "Question": "Can I distribute IKEA products?",
+    "Answer": "The IKEA experience is more than just products, it is a retail concept. For the concept to work, it is necessary to have all aspects in place. Therefore, IKEA products are sold only in IKEA stores franchised by Inter IKEA Systems B.V.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/about-ikea/"
+  },
+  {
+    "Question": "How can I become a franchisee?",
+    "Answer": "IKEA products are sold solely in stores operating the IKEA Retail System--franchised by Inter IKEA Systems B.V. of The Netherlands. Franchises are granted by Inter IKEA Systems B.V. as part of a detailed expansion plan. Serious applicants are carefully researched and evaluated and franchises are granted only to companies and/or individuals with strong financial backing and a proven record in retail. [Please visit our franchisor site for more information.](http://franchisor.ikea.com/)",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/about-ikea/"
+  },
+  {
+    "Question": "What is the IKEA business idea?",
+    "Answer": "The IKEA business idea is: \"We shall offer a wide range of well-designed, functional home furnishing products at prices so low that as many people as possible will be able to afford them.\" More information about the IKEA Group can be found [here.](http://www.ikea.com/gb/en/this-is-ikea/about-the-ikea-group/)",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/about-ikea/"
+  },
+  {
+    "Question": "How can I find out about job opportunities within IKEA?",
+    "Answer": "If you are out-going, dedicated, customer-service orientated and interested in working as part of a team, contact the IKEA store near you for possible openings. It is also possible to view openings at your local store by visiting the [job section](http://www.ikea.com/gb/en/this-is-ikea/working-at-the-ikea-group/) within our website.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/about-ikea/"
+  },
+  {
+    "Question": "How does IKEA approach environmental issues?",
+    "Answer": "\\n\\n We're working to create a better everyday life for the many people. This includes doing what we can to help create a world where we take better care of our environment. \\n\\n You can find out more information in the [People and Planet](http://www.ikea.com/gb/en/this-is-ikea/people-planet/) section of the website. \\n",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/about-ikea/"
+  },
+  {
+    "Question": "Where are IKEA products manufactured?",
+    "Answer": "IKEA has more than 1200 furniture suppliers around the world as well as 100 food suppliers and 275 suppliers of transport. The five countries that supply most goods and services to IKEA are China, Poland, Italy, Germany and Sweden. The profile of our well-designed and high quality range is distinctively Swedish/Scandinavian. The low price is literally built into the production and the flat packs facilitate a rational distribution, self-service and immediate take-away.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/about-ikea/"
+  },
+  {
+    "Question": "What is your registered UK business address and VAT number?",
+    "Answer": "IKEA Limited is a company registered in England with its registered office at Witan Gate House 500-600 Witan Gate West Milton Keynes MK9 1SH and company number 01986283. Our VAT number is 527773320. IKEA Limited is licensed to sell under the IKEA brand name by Inter IKEA Systems B.V., a company registered in the Netherlands.",
+    "Source": "http://www.ikea.com/gb/en/customer-service/faq/about-ikea/"
+  },
+  {
+    "Question": "Hi",
+    "Answer": "Hello",
+    "Source": "Editorial"
+  },
+  {
+    "Question": "Hey",
+    "Answer": "Hello",
+    "Source": "Editorial"
+  },
+  {
+    "Question": "Hello",
+    "Answer": "Hello",
+    "Source": "Editorial"
+  },
+  {
+    "Question": "Yo",
+    "Answer": "Hello",
+    "Source": "Editorial"
+  }
+]
+}
