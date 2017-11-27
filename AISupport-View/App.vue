@@ -15,7 +15,7 @@
         created () {
             setTimeout(() => {
                 console.log('GO')
-                this.$http.get('http://127.0.0.1:5000/test').then( (response) => {
+                this.$http.get('http://52.232.81.235:5000/test').then( (response) => {
                     console.log(response)
                     this.test = response.body.tasks[0].msg
                 });

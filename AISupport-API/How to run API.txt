@@ -15,7 +15,7 @@ pip install flask
 
 To run server:
 Command line (in root)
-./app.py or python ./app.py if doesnt work
+./api.py or python ./api.py if doesnt work
 
 
 Cheers!
