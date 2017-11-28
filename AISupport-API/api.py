@@ -14,8 +14,7 @@ tasks = [
 
 @app.route('/test', methods=['GET'])
 def get_tasks():
-
-    resp = make_response(jsonify({'tasks': tasks}), 200)
+    resp = make_response('', 200)
     resp.headers['Access-Control-Allow-Origin'] = '*'
     return resp
 

@@ -1,0 +1,32 @@
+#wrapper{
+  width: 96%;
+  margin-left: 2%;
+  #status{
+    height: 5vh;
+    .server-status{
+      width: 40%;
+      float: left;
+    }
+    .load-status{
+      width: 40%;
+      float: right;
+      text-align: right;
+    }
+  }
+  #conversation{
+    height: 80vh;
+    .messages{
+      margin: 5px;
+    }
+  }
+  #input{
+    height: 5vh;
+    width: 100%;
+    .text{
+      height: 100%;
+      display: inline-block;
+      width: 100%;
+      margin-top: 5px;
+    }
+  }
+}
