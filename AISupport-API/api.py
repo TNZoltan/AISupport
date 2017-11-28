@@ -3,6 +3,7 @@ from flask import Flask
 from flask import jsonify
 from flask import request
 from flask import make_response
+import os
 
 app = Flask(__name__)
 
@@ -19,4 +20,7 @@ def get_tasks():
     return resp
 
 if __name__ == '__main__':
-    app.run(debug=True)
+	if os.name == 'nt':
+		app.run(debug=True,threaded=True)
+	else: 
+		app.run(host='0.0.0.0',threaded=True)
