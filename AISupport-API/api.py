@@ -13,14 +13,16 @@ tasks = [
     }
 ]
 
+
 @app.route('/test', methods=['GET'])
 def get_tasks():
     resp = make_response('', 200)
     resp.headers['Access-Control-Allow-Origin'] = '*'
     return resp
 
+
 if __name__ == '__main__':
-	if os.name == 'nt':
-		app.run(debug=True,threaded=True)
-	else: 
-		app.run(host='0.0.0.0',threaded=True)
+    if os.name == 'nt':
+        app.run(debug=True, threaded=True)
+    else:
+        app.run(host='0.0.0.0', threaded=True)
