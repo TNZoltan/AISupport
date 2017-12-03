@@ -1,7 +1,7 @@
 {"Intents": [
   {
-    "Question": ["How do I buy online?","How to shop online"  ],
-    "Answer": ["To find out how you can shop online please [click here.](http://www.ikea.com/gb/en/customer-service/how-to-shop-at-ikea/)"]
+    "Question": "How do I buy online?",
+    "Answer": "To find out how you can shop online please [click here.](http://www.ikea.com/gb/en/customer-service/how-to-shop-at-ikea/)"
   },
   {
     "Question": "Why are there products on the website that I cannot buy online?",
@@ -729,17 +729,17 @@
   },
   {
     "Question": "Hey",
-    "Answer": "Hello",
+    "Answer": "Aloha",
     "Source": "Editorial"
   },
   {
     "Question": "Hello",
-    "Answer": "Hello",
+    "Answer": "Hi!",
     "Source": "Editorial"
   },
   {
     "Question": "Yo",
-    "Answer": "Hello",
+    "Answer": "Hey",
     "Source": "Editorial"
   }
 ]

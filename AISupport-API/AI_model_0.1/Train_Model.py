@@ -1,6 +1,7 @@
 # things we need for NLP
 import nltk
 from nltk.stem.lancaster import LancasterStemmer
+from sklearn.model_selection import train_test_split
 
 stemmer = LancasterStemmer()
 
@@ -13,31 +14,36 @@ import json
 import pickle
 
 # import our intents file
-with open('intents.json') as json_data:
+with open('intents1.json') as json_data:
     intents = json.load(json_data)
 
 words = []
 classes = []
 documents = []
-ignore_words = ['?']
+ignore_words = ['?', '(', ')', '\'', ',', '/', '.', '-']
 
 # loop through each sentence in our intents patterns
 for intent in intents['Intents']:
-    for question in intent['Question']:
         # tokenize each word in the sentence
-        w = nltk.word_tokenize(question)
-        print(w)
+        w = nltk.word_tokenize(intent['Question'])
         # add to our words list
         words.extend(w)
         # add to documents in our corpus
         documents.append((w, intent['Question']))
         # add to our classes list
-        if intent['Question'] not in classes:
+        if intent not in classes:
             classes.append(intent['Question'])
 
 # stem and lower each word and remove duplicates
+for myword in words:
+    print(myword)
+
 words = [stemmer.stem(w.lower()) for w in words if w not in ignore_words]
 words = sorted(list(set(words)))
+print("dictionary length: ", len(words))
+
+for myword in words:
+    print(myword)
 
 # create our training data
 training = []
@@ -68,25 +74,29 @@ random.shuffle(training)
 training = np.array(training)
 
 # create train and test lists
-train_x = list(training[:, 0])
-train_y = list(training[:, 1])
+x_data = list(training[:, 0])
+y_data = list(training[:, 1])
 
-x = np.random.randint(0, len(train_x))
+x_train, x_test, y_train, y_test = train_test_split(x_data, y_data, test_size=0.2)
+
+x = np.random.randint(0, len(x_train))
 
 # reset underlying graph data
 tf.reset_default_graph()
 # Build neural network
-net = tflearn.input_data(shape=[None, len(train_x[0])])
-net = tflearn.fully_connected(net, 32, activation="relu")
-net = tflearn.fully_connected(net, 16, activation="relu")
-net = tflearn.fully_connected(net, len(train_y[0]), activation='softmax')
+net = tflearn.input_data(shape=[None, len(x_train[0])])
+# net = tflearn.fully_connected(net, 128, activation="relu")
+# net = tflearn.dropout(net, 0.5)
+net = tflearn.fully_connected(net, 512, activation="relu", regularizer='L2')
+net = tflearn.fully_connected(net, 128, activation="relu", regularizer='L2')
+net = tflearn.fully_connected(net, len(y_train[0]), activation='softmax')
 net = tflearn.regression(net)
 
 # Define model and setup tensorboard
 model = tflearn.DNN(net, tensorboard_dir='tflearn_logs')
 # Start training (apply gradient descent algorithm)
-model.fit(train_x, train_y, n_epoch=1000, batch_size=4, show_metric=True)
+model.fit(x_train, y_train, validation_set=(x_test, y_test), n_epoch=100, batch_size=8, show_metric=True)
 
 model.save('model.tflearn')
 
-pickle.dump({'words': words, 'classes': classes, 'train_x': train_x, 'train_y': train_y}, open("training_data", "wb"))
+pickle.dump({'words': words, 'classes': classes, 'train_x': x_train, 'train_y': y_train}, open("training_data", "wb"))

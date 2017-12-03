@@ -6,7 +6,6 @@ stemmer = LancasterStemmer()
 
 import numpy as np
 import tflearn
-import tensorflow as tf
 import random
 import json
 import pickle
@@ -18,13 +17,13 @@ train_x = data['train_x']
 train_y = data['train_y']
 
 # import our chat-bot intents file
-with open('intents.json') as json_data:
+with open('intents1.json') as json_data:
     intents = json.load(json_data)
 
 # Build neural network
 net = tflearn.input_data(shape=[None, len(train_x[0])])
-net = tflearn.fully_connected(net, 32, activation="relu")
-net = tflearn.fully_connected(net, 16, activation="relu")
+net = tflearn.fully_connected(net, 512, activation="relu", regularizer='L2')
+net = tflearn.fully_connected(net, 128, activation="relu", regularizer='L2')
 net = tflearn.fully_connected(net, len(train_y[0]), activation='softmax')
 net = tflearn.regression(net)
 
@@ -60,7 +59,7 @@ def bow(sentence, words, show_details=False):
 # create a data structure to hold user context
 context = {}
 
-ERROR_THRESHOLD = 0.3
+ERROR_THRESHOLD = 0.7
 
 
 def classify(sentence):
@@ -78,6 +77,10 @@ def classify(sentence):
 
 
 def response(sentence, show_details=True):
+    """
+
+    :rtype: object
+    """
     results = classify(sentence)
     # if we have a classification then find the matching intent tag
     if results:
@@ -88,9 +91,9 @@ def response(sentence, show_details=True):
                 if i['Question'] == results[0][0]:
                     if show_details: print('Question:', i['Question'])
                     # a random response from the intent
-                    return print(random.choice(i['Answer']))
+                    print(i['Answer'])
+                    return 0
 
             results.pop(0)
 
-
-print(response("can I cancel an order?"))
+response("kjfgkjsdgksdfjgnsdoijl fgkjbnjkdsfgfds")
