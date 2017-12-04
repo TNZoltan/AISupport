@@ -4,16 +4,16 @@ from controller import concrete_command
 from flask_cors import CORS, cross_origin
 import os
 
-app = Flask(__name__)
+app = Flask('AI-Support API')
 CORS(app)
 
 
 @app.route('/api/talk', methods=['POST'])
 @cross_origin()
 def answer():
-    data = request.get_json()
+    data = request.form
     message = concrete_command(data)
-    resp = make_response(jsonify(message), 200)
+    resp = make_response(jsonify({'msg': message}), 200)
     return resp
 
 

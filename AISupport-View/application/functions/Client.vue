@@ -38,22 +38,24 @@
                 })
                 this.serverChecked = true
             },
-            getMessage: function (type, question = null) {
+            makeRequest: function (type, question = null) {
                 this.loadStatus = true
                 let url = 'http://' + this.host + ':5000/api/talk'
-                let body = {
+                let formData = new FormData();
+
+                formData.append('type', type);
+                formData.append('question', question);
+
+                let body = JSON.stringify({
                     type: type ,
                     question: question
-                }
-                let options = {
-                    'Content-Type': 'application/json'
-                }
-                this.$http.post(url, JSON.stringify(body), options).then( response => {
+                })
+                this.$http.post(url, formData).then( response => {
                     this.loadStatus = false
-                    return response.body.message
+                    this.$emit('messageReceived', response.body.msg)
                 }, response => {
                     this.loadStatus = false
-                    return false
+                    this.$emit('requestFailed')
                 })
             }
         }

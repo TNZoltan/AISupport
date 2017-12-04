@@ -1,7 +1,7 @@
 <template>
     <div id="wrapper">
         <div id="status">
-            <client ref="client"></client>
+            <client ref="client" @messageReceived="printMessage($event)" @requestFailed="printError()"></client>
         </div>
         <div id="conversation">
             <div class="messages">
@@ -25,8 +25,14 @@
         },
         methods: {
             sendInput ()  {
-                console.log(this.$refs.client.getMessage('question', this.input))
+                this.$refs.client.makeRequest('question', this.input)
                 this.input = ' '
+            },
+            printMessage (msg) {
+                alert(msg)
+            },
+            printError () {
+                alert('We are sorry. There seems to be a server error.')
             }
         },
         components: {
