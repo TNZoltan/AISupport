@@ -45,8 +45,10 @@
                     type: type ,
                     question: question
                 }
-                console.log(body)
-                this.$http.put(url, body).then( response => {
+                let options = {
+                    'Content-Type': 'application/json'
+                }
+                this.$http.post(url, JSON.stringify(body), options).then( response => {
                     this.loadStatus = false
                     return response.body.message
                 }, response => {

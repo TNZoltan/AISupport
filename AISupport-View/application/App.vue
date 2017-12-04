@@ -25,7 +25,7 @@
         },
         methods: {
             sendInput ()  {
-                console.log(this.$refs.client.getMessage('question',this.input))
+                console.log(this.$refs.client.getMessage('question', this.input))
                 this.input = ' '
             }
         },

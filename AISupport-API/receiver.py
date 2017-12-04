@@ -1,20 +1,19 @@
 #!venv/Scripts/python
-from flask import Flask
-from flask import jsonify
-from flask import request
+from flask import Flask,  make_response, jsonify, request
 from controller import concrete_command
-from flask import make_response
+from flask_cors import CORS, cross_origin
 import os
 
 app = Flask(__name__)
+CORS(app)
 
 
-@app.route('/api/talk', methods=['PUT, OPTIONS'])
+@app.route('/api/talk', methods=['POST'])
+@cross_origin()
 def answer():
-    message = concrete_command(request.data)
-    message = 'boii'
+    data = request.get_json()
+    message = concrete_command(data)
     resp = make_response(jsonify(message), 200)
-    resp.headers['Access-Control-Allow-Origin'] = '*'
     return resp
 
 
@@ -22,7 +21,6 @@ def answer():
 def test():
     # simply send back an OK
     resp = make_response('', 200)
-    resp.headers['Access-Control-Allow-Origin'] = '*'
     return resp
 
 
