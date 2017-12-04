@@ -1,7 +1,7 @@
 <template>
     <div id="wrapper">
         <div id="status">
-            <client></client>
+            <client ref="client"></client>
         </div>
         <div id="conversation">
             <div class="messages">
@@ -9,7 +9,7 @@
             </div>
         </div>
         <div id="input">
-            <input type="text" placeholder="Start typing here..." class="text" name="message">
+            <input type="text" placeholder="Start typing here..." class="text" name="message" @keyup.enter="sendInput()" v-model="input">
         </div>
     </div>
 </template>
@@ -20,11 +20,14 @@
     export default {
         data () {
             return {
-                test: 'Start. Fetch message in 2 seconds'
+                input: ''
             }
         },
-        created () {
-
+        methods: {
+            sendInput ()  {
+                console.log(this.$refs.client.getMessage('question',this.input))
+                this.input = ' '
+            }
         },
         components: {
             'client' : Client

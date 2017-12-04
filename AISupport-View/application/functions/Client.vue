@@ -25,10 +25,8 @@
         },
         methods: {
             checkStatus: function () {
-                console.log('Status check began')
                 this.loadStatus = true
-                let url = 'http://' + this.host + ':5000/test'
-                console.log('Host is '+ url)
+                let url = 'http://' + this.host + ':5000/api/test'
                 this.$http.get(url).then( response => {
                     this.serverStatus = '✓ The API is available'
                     this.serverColor = 'green'
@@ -39,6 +37,22 @@
                     this.loadStatus = false
                 })
                 this.serverChecked = true
+            },
+            getMessage: function (type, question = null) {
+                this.loadStatus = true
+                let url = 'http://' + this.host + ':5000/api/talk'
+                let body = {
+                    type: type ,
+                    question: question
+                }
+                console.log(body)
+                this.$http.put(url, body).then( response => {
+                    this.loadStatus = false
+                    return response.body.message
+                }, response => {
+                    this.loadStatus = false
+                    return false
+                })
             }
         }
     }
