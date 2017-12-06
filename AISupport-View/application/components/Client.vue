@@ -9,6 +9,7 @@
 
 <script>
     export default {
+        name: 'client',
         data () {
             return {
                 serverStatus: 'Loading...',
@@ -51,11 +52,13 @@
                     question: question
                 })
                 this.$http.post(url, formData).then( response => {
+                    console.log(response)
                     this.loadStatus = false
                     this.$emit('messageReceived', response.body.msg)
                 }, response => {
+                    console.log(response)
                     this.loadStatus = false
-                    this.$emit('requestFailed')
+                    this.$emit('requestFailed', 'We are sorry. There seems to be a server error.')
                 })
             }
         }
