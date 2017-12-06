@@ -60,7 +60,7 @@ def bow(sentence, words, show_details=False):
 # create a data structure to hold user context
 context = {}
 
-ERROR_THRESHOLD = 0.7
+ERROR_THRESHOLD = 0.2
 
 
 def classify(sentence):
@@ -90,9 +90,14 @@ def response(sentence, show_details=True):
             for i in intents['Intents']:
                 # find a tag matching the first result
                 if i['Question'] == results[0][0]:
-                    if show_details: print('Question:', i['Question'])
+                    if show_details:
+                        print('Question:', i['Question'])
+
+                        return ('Answer: {1}\n Question: {0}', i['Answer'], i['Question'])
                     # a random response from the intent
+
                     print(i['Answer'])
-                    return 0
+                    return i['Answer']
 
             results.pop(0)
+
