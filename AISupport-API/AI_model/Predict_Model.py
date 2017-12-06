@@ -1,4 +1,4 @@
-# things we need for NLP
+#!../venv/Scripts/python
 import nltk
 from nltk.stem.lancaster import LancasterStemmer
 

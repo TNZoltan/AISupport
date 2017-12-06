@@ -1,4 +1,4 @@
-#from AI_model.Predict_Model import response
+from AI_model.Predict_Model import response
 
 
 def concrete_command(request_object):
