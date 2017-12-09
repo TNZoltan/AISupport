@@ -15,8 +15,44 @@
   }
   #conversation{
     height: 80vh;
-    .messages{
-      margin: 5px;
+    padding: 5px;
+    #messages{
+      overflow-y: auto;
+      max-height: 80vh;
+      .message{
+        width: 100%;
+        .sender{
+          color :gray;
+          opacity: 0.7;
+        }
+        .text {
+          width: 60%;
+          padding: 5px;
+          border: 1px solid;
+          border-radius: 3px;
+        }
+      }
+
+      .You {
+        .sender{
+          margin-left: 10px;
+        }
+        .text {
+          background-color: #F0F0F0;
+          border-color: #bdc3c7;
+        }
+      }
+      .Support {
+        .sender{
+          text-align: right;
+          margin-right: 12px;
+        }
+        .text{
+          margin-left: 37%;
+          background-color: #fff6e5;
+          border-color: #f39c12;
+        }
+      }
     }
   }
   #input{
