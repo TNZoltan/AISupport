@@ -1,68 +1,99 @@
-#wrapper{
-  width: 96%;
-  margin-left: 2%;
-  #status{
-    height: 5vh;
-    .server-status{
-      width: 40%;
-      float: left;
-    }
-    .load-status{
-      width: 40%;
-      float: right;
-      text-align: right;
-    }
-  }
-  #conversation{
-    height: 80vh;
-    padding: 5px;
-    #messages{
-      overflow-y: auto;
-      max-height: 80vh;
-      .message{
-        width: 100%;
-        .sender{
-          color :gray;
-          opacity: 0.7;
-        }
-        .text {
-          width: 60%;
-          padding: 5px;
-          border: 1px solid;
-          border-radius: 3px;
+body{
+  background: url("/application/assets/current_site.png") no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#support-box{
+  position: fixed;
+  width: 400px;
+  height: 400px;
+  right: 0;
+  bottom: 0;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border:  7px solid #2d9aaa;
+  border-radius: 7px 30px 7px 30px;
+  background-color: #2d92a1;
+  .wrapper{
+    margin: 7px;
+    background-color: white;
+    border-radius: 0 10px 0 0;
+    #status{
+      height: 5vh;
+      .server-status{
+        width: 60%;
+        float: left;
+        font-size: 14px;
+        margin-left: 5px;
+      }
+      .load-status{
+        width: 35%;
+        float: right;
+        text-align: right;
+        img{
+          height: 20px;
+          width: auto;
         }
       }
+    }
+    #conversation{
+      height: 293px;
+      padding: 5px;
+      #messages{
+        overflow-y: auto;
+        max-height: 80vh;
+        .message-wrap{
+          .message{
+            width: 100%;
+            .sender{
+              color :gray;
+              opacity: 0.7;
+            }
+            .text {
+              width: 60%;
+              padding: 5px;
+              border: 1px solid;
+              border-radius: 3px;
+            }
+          }
+        }
 
-      .You {
-        .sender{
-          margin-left: 10px;
-        }
-        .text {
-          background-color: #F0F0F0;
-          border-color: #bdc3c7;
-        }
-      }
-      .Support {
-        .sender{
-          text-align: right;
-          margin-right: 12px;
-        }
-        .text{
-          margin-left: 37%;
-          background-color: #fff6e5;
-          border-color: #f39c12;
+        .message-wrap{
+          .You {
+            .sender{
+            }
+            .text {
+              background-color: #F0F0F0;
+              border-color: #bdc3c7;
+            }
+          }
+          .Support {
+            text-align: right;
+            .sender{
+
+            }
+            .text{
+              display: inline-block;
+              background-color: #fff6e5;
+              border-color: #f39c12;
+            }
+          }
         }
       }
     }
-  }
-  #input{
-    height: 5vh;
-    width: 100%;
-    .text{
-      height: 100%;
-      display: inline-block;
-      width: 100%;
-      margin-top: 5px;
+    #input{
+      height: 35px;
+      width: 382px;
+      .text{
+        height: 100%;
+        display: inline-block;
+        width: 100%;
+        margin-top: 5px;
+        border-radius: 0 0 0 10px;
+        outline: none;
+      }
     }
   }
 }

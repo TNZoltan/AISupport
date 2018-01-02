@@ -52,9 +52,11 @@
                     question: question
                 })
                 this.$http.post(url, formData).then( response => {
-                    console.log(response)
-                    this.loadStatus = false
-                    this.$emit('messageReceived', response.body.msg)
+                    setTimeout(() => {
+                        console.log(response)
+                        this.loadStatus = false
+                        this.$emit('messageReceived', response.body.msg)
+                    },300)
                 }, response => {
                     console.log(response)
                     this.loadStatus = false

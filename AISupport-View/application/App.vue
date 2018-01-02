@@ -1,13 +1,15 @@
 <template>
-    <div id="wrapper">
-        <div id="status">
-            <client ref="client" @messageReceived="getMessage($event)" @requestFailed="getError($event)"></client>
-        </div>
-        <div id="conversation">
-            <message-board ref="messageBoard"></message-board>
-        </div>
-        <div id="input">
-            <input type="text" placeholder="Start typing here..." class="text" name="message" @keyup.enter="sendInput()" v-model="input">
+    <div id="support-box">
+        <div class="wrapper">
+            <div id="status">
+                <client ref="client" @messageReceived="getMessage($event)" @requestFailed="getError($event)"></client>
+            </div>
+            <div id="conversation">
+                <message-board ref="messageBoard"></message-board>
+            </div>
+            <div id="input">
+                <input type="text" placeholder="Start typing here..." class="text" name="message" @keyup.enter="sendInput()" v-model="input">
+            </div>
         </div>
     </div>
 </template>
