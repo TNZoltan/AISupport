@@ -16,6 +16,7 @@
                 serverColor: 'gray',
                 serverChecked: false,
                 loadStatus: false,
+                failCounter: 0,
                 host: window.location.hostname
             }
         },
@@ -53,12 +54,20 @@
                 })
                 this.$http.post(url, formData).then( response => {
                     setTimeout(() => {
-                        console.log(response)
                         this.loadStatus = false
-                        this.$emit('messageReceived', response.body.msg)
+                        if (response.body.msg) {
+                            this.failCounter = 0
+                            this.$emit('messageReceived', response.body.msg)
+                        } else {
+                            this.failCounter++
+                            if (this.failCounter >= 3) {
+                                this.$emit('messageReceived', 'Apologies. I still do not understand your question. If I cannot answer your question, please contact our company so you can talk with a real person.[link]http://www.2021.ai/contacts/[/link]’ ')
+                            } else {
+                                this.$emit('messageReceived', 'I am sorry. I am afraid I did not understand your question. Please remember to only ask questions about our company.')
+                            }
+                        }
                     },300)
                 }, response => {
-                    console.log(response)
                     this.loadStatus = false
                     this.$emit('requestFailed', 'We are sorry. There seems to be a server error.')
                 })

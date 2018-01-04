@@ -37,7 +37,7 @@
                 // Push to Message Board
                 this.$refs.messageBoard.printMessage('Support', msg)
             },
-           getError (errorMsg) {
+            getError (errorMsg) {
                 alert(errorMsg)
             }
         },
