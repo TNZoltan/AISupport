@@ -30,7 +30,7 @@ net = tflearn.regression(net)
 # Define model and setup tensorboard
 model = tflearn.DNN(net, tensorboard_dir='tflearn_logs')
 
-model.load('model.tflearn')
+model.load('AI_model/model.tflearn')
 
 
 def clean_up_sentence(sentence):
