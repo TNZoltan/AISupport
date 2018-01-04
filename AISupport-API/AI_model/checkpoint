@@ -1,2 +1,2 @@
-model_checkpoint_path: "C:\\Users\\XXX\\Documents\\GitHub\\AISupport\\AISupport-API\\AI_model_0.1\\model.tflearn"
-all_model_checkpoint_paths: "C:\\Users\\XXX\\Documents\\GitHub\\AISupport\\AISupport-API\\AI_model_0.1\\model.tflearn"
+model_checkpoint_path: "C:\\Users\\XXX\\Documents\\GitHub\\AISupport\\AISupport-API\\AI_model\\model.tflearn"
+all_model_checkpoint_paths: "C:\\Users\\XXX\\Documents\\GitHub\\AISupport\\AISupport-API\\AI_model\\model.tflearn"

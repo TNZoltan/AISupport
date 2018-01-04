@@ -1,37 +1,36 @@
 #!../venv/Scripts/python
 import nltk
 from nltk.stem.lancaster import LancasterStemmer
-
-stemmer = LancasterStemmer()
-
 import numpy as np
 import tflearn
 import json
 import pickle
-import os
+import re
+
+stemmer = LancasterStemmer()
 
 
-data = pickle.load(open("AI_model/training_data", "rb"))
+data = pickle.load(open("training_data", "rb"))
 words = data['words']
 classes = data['classes']
 train_x = data['train_x']
 train_y = data['train_y']
 
 # import our chat-bot intents file
-with open('AI_model/intents1.json') as json_data:
+with open('intents1.json') as json_data:
     intents = json.load(json_data)
 
 # Build neural network
 net = tflearn.input_data(shape=[None, len(train_x[0])])
 net = tflearn.fully_connected(net, 512, activation="relu", regularizer='L2')
-net = tflearn.fully_connected(net, 128, activation="relu", regularizer='L2')
+net = tflearn.fully_connected(net, 124, activation="relu", regularizer='L2')
 net = tflearn.fully_connected(net, len(train_y[0]), activation='softmax')
 net = tflearn.regression(net)
 
 # Define model and setup tensorboard
-model = tflearn.DNN(net, tensorboard_dir='AI_model/tflearn_logs')
+model = tflearn.DNN(net, tensorboard_dir='tflearn_logs')
 
-model.load('AI_model/model.tflearn')
+model.load('model.tflearn')
 
 
 def clean_up_sentence(sentence):
@@ -77,9 +76,15 @@ def classify(sentence):
     return return_list
 
 
+def encode_string_with_links(unencoded_string):
+    url_regex = re.compile(r'''((?:mailto:|https://|http://)[^ <>'"{}|\\^`[\]]*)''')
+    url_regex = url_regex.sub(r'[link]\1[/link]', unencoded_string)
+    url_regex = re.sub('[).(]', '', url_regex)
+
+    return url_regex
+
 def response(sentence, show_details=True):
     """
-
     :rtype: object
     """
     results = classify(sentence)
@@ -93,11 +98,16 @@ def response(sentence, show_details=True):
                     if show_details:
                         print('Question:', i['Question'])
 
-                        return ('Answer: {1}\n Question: {0}', i['Answer'], i['Question'])
-                    # a random response from the intent
+                        tagged_answer = encode_string_with_links(i['Answer'])
+                        print(tagged_answer)
 
-                    print(i['Answer'])
-                    return i['Answer']
+                        return 'Answer: {1}\n Question: {0}', i['Answer'], i['Question']
+                    # a random response from the intent
+                    tagged_answer = encode_string_with_links(i['Answer'])
+                    print(tagged_answer)
+                    return tagged_answer
 
             results.pop(0)
 
+
+response('What if I change my mind after ordering online?')
