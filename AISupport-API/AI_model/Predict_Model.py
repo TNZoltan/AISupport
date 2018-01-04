@@ -7,17 +7,17 @@ import json
 import pickle
 import re
 
+
 stemmer = LancasterStemmer()
 
-
-data = pickle.load(open("training_data", "rb"))
+data = pickle.load(open("AI_model/training_data", "rb"))
 words = data['words']
 classes = data['classes']
 train_x = data['train_x']
 train_y = data['train_y']
 
 # import our chat-bot intents file
-with open('intents1.json') as json_data:
+with open('AI_model/intents1.json') as json_data:
     intents = json.load(json_data)
 
 # Build neural network
@@ -82,6 +82,7 @@ def encode_string_with_links(unencoded_string):
     url_regex = re.sub('[).(]', '', url_regex)
 
     return url_regex
+
 
 def response(sentence, show_details=True):
     """
