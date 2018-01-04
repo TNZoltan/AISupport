@@ -42,9 +42,10 @@ body{
       height: 293px;
       padding: 5px;
       #messages{
-        overflow-y: auto;
-        max-height: 80vh;
+        overflow-y: scroll;
+        height: 293px;
         .message-wrap{
+          margin-bottom: 2px;
           .message{
             width: 100%;
             .sender{

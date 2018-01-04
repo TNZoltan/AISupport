@@ -1,7 +1,7 @@
 <template>
-    <div id="messages" ref="messages">
+    <div id="messages" ref="messages" v-chat-scroll>
         <div v-for="message in messages" class="message-wrap">
-            <div class="message"  :class="message.sender">
+            <div class="message" :class="message.sender">
                 <div class="sender" v-text="message.sender"></div>
                 <div class="text" v-text="message.text"></div>
                 <template v-if="message.link">
