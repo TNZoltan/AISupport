@@ -4,7 +4,7 @@
   "description": "2018 Final project of DMOe15C",
   "main": "-",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "",
   "license": "ISC",
@@ -27,7 +27,9 @@
   "devDependencies": {
     "file-loader": "^1.1.6",
     "image-webpack-loader": "^3.4.2",
+    "mocha": "^4.1.0",
     "node-sass": "^4.7.2",
+    "request": "^2.83.0",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.19.1"
   }
