@@ -59,7 +59,7 @@ def bow(sentence, words, show_details=False):
 # create a data structure to hold user context
 context = {}
 
-ERROR_THRESHOLD = 0.2
+ERROR_THRESHOLD = 0.6
 
 
 def classify(sentence):
@@ -109,6 +109,3 @@ def response(sentence, show_details=True):
                     return tagged_answer
 
             results.pop(0)
-
-
-response('What if I change my mind after ordering online?')
